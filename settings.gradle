@@ -1,0 +1,3 @@
+rootProject.name = "AnnularMenuView"
+include ':app'
+include ':library'
