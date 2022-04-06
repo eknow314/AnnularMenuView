@@ -3,6 +3,7 @@
 
 [![](https://jitpack.io/v/eknow314/AnnularMenuView.svg)](https://jitpack.io/#eknow314/AnnularMenuView)
 
+![image](https://cdn.jsdelivr.net/gh/eknow314/blog_pic/img/202204061735760.jpg)
 
 ### 依赖配置
 
