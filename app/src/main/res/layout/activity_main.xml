@@ -6,13 +6,36 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/bg_1"
+        android:translationY="2dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.eknow.annularmenu.AnnularMenuView
+            android:id="@+id/annularMenuView"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="16dp"
+            app:amv_menuDeviationAngle="90"
+            app:amv_menuMargin="6dp"
+            app:amv_menuNormalBgColor="#138DAF"
+            app:amv_menuNormalBgGradientColor0="#138DAF"
+            app:amv_menuNormalBgGradientColor1="#065FB3"
+            app:amv_menuNum="three"
+            app:amv_menuPressedBgColor="#003F77"
+            app:amv_menuStrokeColor="#73C4FF"
+            app:amv_menuStrokeSize="2dp"
+            app:amv_radiusRatio="3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

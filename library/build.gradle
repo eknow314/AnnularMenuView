@@ -5,7 +5,7 @@ plugins {
     id 'android-maven'
 }
 
-group='com.gitee.eknow314'
+group='com.github.eknow314'
 android {
     compileSdk 30
 

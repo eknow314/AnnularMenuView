@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--环状扇形菜单，手机遥控按钮布局-->
+    <declare-styleable name="AnnularMenuView">
+        <!--菜单数量，默认3-->
+        <attr name="amv_menuNum" format="enum" >
+            <enum name="three" value="3"/>
+            <enum name="four" value="4"/>
+            <enum name="eight" value="8"/>
+        </attr>
+        <!--菜单顺时针旋转偏移角度-->
+        <attr name="amv_menuDeviationAngle" format="float" />
+        <!--边框大小-->
+        <attr name="amv_menuStrokeSize" format="dimension" />
+        <!--边框颜色-->
+        <attr name="amv_menuStrokeColor" format="color" />
+        <!--按钮边距-->
+        <attr name="amv_menuMargin" format="dimension" />
+        <!--外圆半径和内圆半径比例-->
+        <attr name="amv_radiusRatio" format="float" />
+        <!--菜单按钮按压状态颜色-->
+        <attr name="amv_menuPressedBgColor" format="color" />
+        <!--菜单按钮普通状态颜色-->
+        <attr name="amv_menuNormalBgColor" format="color" />
+        <!--菜单按钮普通状态渐变色0-->
+        <attr name="amv_menuNormalBgGradientColor0" format="color" />
+        <!--菜单按钮普通状态渐变色1-->
+        <attr name="amv_menuNormalBgGradientColor1" format="color" />
+    </declare-styleable>
+</resources>
