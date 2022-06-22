@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         annularMenuView.setOnMenuLongClickListener(object : OnMenuLongClickListener {
             override fun OnMenuLongClick(position: Int) {
                 Log.e(TAG, "onLongClick position: $position")
+
             }
 
         })
